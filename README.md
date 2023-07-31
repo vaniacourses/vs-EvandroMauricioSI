@@ -7,16 +7,38 @@ Você acabou de ser contratado na função de QA e Tester em uma startup banc
 ---
 
 ### 1. Defina um processo de desenvolvimento e de teste para esse produto no contexto da startup. (1 ponto)
-- PROCESSO DE DESENVOLVIMENTO
-    - PLANEJAMENTO: para definir os objetivos do aplicativo, os requisitos do usuário, os cenários de teste e o cronograma do projeto
-    - DESENVOLVIMENTO: para implementar o aplicativo, de acordo com os requisitos do usuário.
-    - TESTE: para garantir que ele atenda aos requisitos do usuário e funcione conforme o esperado.
-<br><br>
-- PROCESSO DE TESTES
-    - Teste UNITÁRIO para testar as unidades individuais de código do aplicativo.
-    - Teste DE INTEGRAÇÃO para testar a interação entre as diferentes unidades de código do aplicativo.
-    - Teste DE SISTEMA para testar o aplicativo como um todo.
-    - Teste DE USUÁRIO para testar o aplicativo com usuários reais.
+
+REQUISITOS:
+
+Todas as funcionalidades da aplicação descritas nos requisitos funcionais precisam ser testadas.
+
+
+- Requisitos Funcionais
+    - RF01 - O usuário pode se cadastrar 
+    - RF02 - O usuário pode acessar a conta
+    - RF03 - O usuário pode verificar o saldo
+    - RF04 - O usuário pode vizualizar o estrato
+    - RF05 - O usuário pode realizar transferências
+    - RF06 - O usuário pode realizar pagamentos
+    - RF07 - O usuário pode realizar investimentos
+    - RF08 - O sistema deve ser compatível com o sistema de pagamento PIX
+    - RF09 - O sistema pode fornecer notificações sobre transações, alertas de segurança e outros eventos relevantes.
+
+
+
+
+OBJETIVOS DE QUALIDADE:
+
+Os objetivos do teste são verificar as funcionalidades da aplicação BIC, o projeto deve se concentrar em testar as operações disponíveis das entidades, em conformidade com os requisitos funcionais, para garantir que todas possam funcionar normalmente em um ambiente real de produção.
+
+
+
+FASES DE TESTE:
+- Teste de unidade
+- Teste de integração
+- Teste de Sistema
+
+
 
 
 --- 
