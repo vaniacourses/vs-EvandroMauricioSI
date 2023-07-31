@@ -2,24 +2,24 @@
 
 # Verificação Suplementar – Qualidade e Teste
 
-Você acabou de ser contratado na função de QA e Tester em uma startup bancária. A empresa está desenvolvendo o aplicativo BIC: Banco do Instituto de Computação e solicitou que você estudasse o que já foi produzido e inicie a implantação do processo de Qualidade e Teste dessa startup. Todo o código produzido até agora está disponível no repositório: (https://github.com/Asunnya/bic-poo)
+Você acabou de ser contratado na função de QA e Tester em uma startup bancária. A empresa está desenvolvendo o aplicativo BIC: Banco do Instituto de Computação e solicitou que você estudasse o que já foi produzido e inicie a implantação do processo de Qualidade e Teste dessa startup. Todo o código produzido até agora está disponível no repositório: https://github.com/Asunnya/bic-poo
 
 ---
 
- ### 1. Defina um processo de desenvolvimento e de teste para esse produto no contexto da startup. (1 ponto) 
-
+### 1. Defina um processo de desenvolvimento e de teste para esse produto no contexto da startup. (1 ponto)
 - PROCESSO DE DESENVOLVIMENTO
-    1. PLANEJAMENTO: para definir os objetivos do aplicativo, os requisitos do usuário, os cenários de teste e o cronograma do projeto. 
-    1. DESENVOLVIMENTO: para implementar o aplicativo, de acordo com os requisitos do usuário. 
-    1. TESTE: para garantir que ele atenda aos requisitos do usuário e funcione conforme o esperado.
+    - PLANEJAMENTO: para definir os objetivos do aplicativo, os requisitos do usuário, os cenários de teste e o cronograma do projeto
+    - DESENVOLVIMENTO: para implementar o aplicativo, de acordo com os requisitos do usuário.
+    - TESTE: para garantir que ele atenda aos requisitos do usuário e funcione conforme o esperado.
 <br><br>
 - PROCESSO DE TESTES
-    1. Teste UNITÁRIO para testar as unidades individuais de código do aplicativo.
-    1. Teste DE INTEGRAÇÃO para testar a interação entre as diferentes unidades de código do aplicativo.
-    1. Teste DE SISTEMA para testar o aplicativo como um todo.
-    1. Teste DE USUÁRIO para testar o aplicativo com usuários reais.
+    - Teste UNITÁRIO para testar as unidades individuais de código do aplicativo.
+    - Teste DE INTEGRAÇÃO para testar a interação entre as diferentes unidades de código do aplicativo.
+    - Teste DE SISTEMA para testar o aplicativo como um todo.
+    - Teste DE USUÁRIO para testar o aplicativo com usuários reais.
 
----
+
+--- 
 
 ### 2. Defina planos, procedimentos, métricas e padrões para controlar e monitorar o processo e o produto (2 pontos)
 
@@ -60,6 +60,30 @@ Leia o tópico “Funcionalidades do BIC para o Cliente” no repositório e g
 
 ### 5. Teste Estrutural (2 pontos)
 Crie casos de teste para obter ao menos 80% de cobertura para o critério todas-arestas do teste estrutural para todas as classes dos pacotes cliente, cartao e conta. Considere que a menor unidade é a classe e mocke as dependências quando necessário. Envie o print da cobertura obtida em seu relatório.
+
+- cliente
+    - Cliente.java
+    - ClienteEmpresa.java
+    - ClientePessoa.java
+    - Endereco.java
+
+- cartao
+    - Cartao.java
+    - CartaoDiamond.java
+    - CartaoPremium.java
+    - CartaoStandard.java
+    - Fatura.java
+
+
+- conta
+    - Conta.java
+    - ContaDiamond.java
+    - ContaPremium.java
+    - ContaStandard.java
+    - GerenciamentoCartao.java
+    - Historico.java
+    - Rentavel.java
+
 
 ---
 
