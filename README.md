@@ -78,6 +78,46 @@ Serão considerados os seguintes critérios de correção:
 ### 4. Teste de Funcional (1 ponto)
 Leia o tópico “Funcionalidades do BIC para o Cliente” no repositório e gere requisitos de teste baseado nos critérios de teste funcional Análise do Valor Limite e Particionamento em Classes de Equivalência, considerando as funcionalidades referentes à Clientes, Cartão e Contas.
 
+Clientes
+- Tipos de Clientes
+- Tipos de Contas
+- Tipos de cartões
+    - Testar se o aplicativo permite que os usuários solicitem diferentes tipos de cartões, dependendo da renda do cliente.
+- Rendimento
+    - Testar se o aplicativo calcula os rendimentos corretos para cada tipo de conta.
+    - Testar se o aplicativo credita os rendimentos corretos nas contas dos usuários. 
+
+Cartão
+- Criação de cartões virtuais
+- Agendamento de transações
+- Pagamento por débito automático
+
+Contas
+- Rendimentos
+
+
+Testes de carga
+- Testar se o aplicativo pode lidar com um grande número de usuários simultâneos.
+- Testar se o aplicativo permanece estável sob carga
+
+
+Testes de desempenho
+- Testar o tempo de resposta do aplicativo para diferentes tipos de solicitações.
+- Testar o uso de recursos do aplicativo.
+
+
+Testes de segurança
+- Testar se o aplicativo é vulnerável a ataques de segurança.
+- Testar se o aplicativo implementa as melhores práticas de segurança.
+
+Testes de usabilidade
+- Testar se o aplicativo é fácil de usar.
+- Testar se o aplicativo é intuitivo e fácil de navegar.
+
+
+Testes de aceitação do usuário
+
+
 ---
 
 ### 5. Teste Estrutural (2 pontos)
@@ -105,7 +145,6 @@ Crie casos de teste para obter ao menos 80% de cobertura para o critério todas-
     - GerenciamentoCartao.java
     - Historico.java
     - Rentavel.java
-
 
 ---
 
